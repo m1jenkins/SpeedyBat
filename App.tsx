@@ -4,7 +4,7 @@ import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { Calculator } from './components/Calculator';
 import { ServiceArea } from './components/ServiceArea';
-import { Testimonials } from './components/Testimonials';
+
 import { ContactForm } from './components/ContactForm';
 import { Footer } from './components/Footer';
 
@@ -18,7 +18,7 @@ const App: React.FC = () => {
         <Calculator />
         <ContactForm />
         <ServiceArea />
-        <Testimonials />
+
       </main>
       <Footer />
     </div>
