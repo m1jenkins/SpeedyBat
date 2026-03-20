@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { Success } from './components/Success';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -9,8 +10,10 @@ if (!rootElement) {
 }
 
 const root = ReactDOM.createRoot(rootElement);
+const path = window.location.pathname;
+
 root.render(
   <React.StrictMode>
-    <App />
+    {path === '/success' ? <Success /> : <App />}
   </React.StrictMode>
 );
