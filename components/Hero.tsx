@@ -4,7 +4,7 @@ import { Button } from './Button';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-900">
+    <section id="hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-900">
       {/* Background Grid Pattern */}
       <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
 
@@ -13,7 +13,7 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-l from-transparent via-slate-900/5 to-slate-900/80 z-10"></div>
         <img
           src="/austin-bats.png"
-          alt=""
+          alt="Speedy Bat Couriers - Premier courier service in Austin Texas providing same day delivery and rush logistics"
           className="w-full h-full object-cover object-center lg:object-right opacity-80"
         />
       </div>
@@ -29,9 +29,9 @@ export const Hero: React.FC = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white uppercase leading-tight mb-2 tracking-tight">
-            Rush Delivery & <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">Critical Logistics</span>
-            <br />for Central Texas.
+            Austin's Premier <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">Courier Service</span>
+            <br />Rush Delivery & Critical Logistics
           </h1>
 
           <p className="text-xl md:text-2xl text-slate-300 font-light mb-8 max-w-2xl border-l-4 border-red-600 pl-6 py-2">

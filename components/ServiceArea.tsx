@@ -16,7 +16,7 @@ const centralTexasCities = [
 
 export const ServiceArea: React.FC = () => {
   return (
-    <section className="py-12 lg:py-16 bg-slate-900">
+    <section id="service-area" className="py-12 lg:py-16 bg-slate-900">
       <div className="container mx-auto px-4">
         <SectionHeading title="Austin Courier Service Area" subtitle="Last-minute delivery and expedited delivery solutions originating from Austin/Waco Hub to all major Texas metros." />
 
@@ -89,6 +89,11 @@ export const ServiceArea: React.FC = () => {
           </div>
 
         </div>
+
+        {/* SEO-rich content paragraph */}
+        <p className="mt-10 text-slate-500 text-sm leading-relaxed max-w-3xl mx-auto text-center">
+          Speedy Bat Couriers is the trusted courier in Austin, Texas for businesses that need reliable, time-critical delivery. From our Austin headquarters, we provide same day courier service to every community in Central Texas — whether you need a package delivered across town to Round Rock, a legal filing rushed to the courthouse, or a critical shipment hand-carried on the next flight out of Austin-Bergstrom International Airport. Our dedicated vehicles and professional couriers are available 24/7/365.
+        </p>
       </div>
     </section>
   );

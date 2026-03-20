@@ -6,17 +6,17 @@ import { FeatureData } from '../types';
 const features: FeatureData[] = [
   {
     title: "High-Tech & Semiconductor",
-    description: "Specialized logistics for the Taylor/Samsung ecosystem. Wafer transport, Fab-to-Fab logistics, clean room protocol compliance, and NFO (Next Flight Out) services for time-critical semiconductor components.",
+    description: "Specialized courier logistics for Austin's Taylor/Samsung semiconductor ecosystem. Wafer transport, Fab-to-Fab logistics, clean room protocol compliance, and NFO (Next Flight Out) services for time-critical components throughout Central Texas.",
     icon: Zap
   },
   {
     title: "Healthcare & Life Sciences",
-    description: "HIPAA compliant courier services for the medical industry. UN3373 Biological Substance transport, Cold Chain logistics, STAT Medical delivery, and secure specimen transport for healthcare providers.",
+    description: "HIPAA compliant medical courier services in Austin, Texas. UN3373 Biological Substance transport, Cold Chain logistics, STAT Medical delivery, and secure specimen transport for Austin-area hospitals, clinics, and healthcare providers.",
     icon: Stethoscope
   },
   {
     title: "Legal & Industrial Hot Shot",
-    description: "Secure court filings with chain of custody documentation. Industrial parts delivery with 1-Hour Urgent service and 24/7 Dispatch available for law firms, manufacturers, and government agencies.",
+    description: "Legal courier service in Austin TX with secure court filings and chain of custody documentation. Industrial hot shot parts delivery with 1-Hour Urgent service and 24/7 Dispatch for Austin law firms, manufacturers, and government agencies.",
     icon: Briefcase
   }
 ];
@@ -24,6 +24,7 @@ const features: FeatureData[] = [
 export const Features: React.FC = () => {
   return (
     <section
+      id="services"
       className="py-24 border-b border-slate-800 relative overflow-hidden"
       style={{
         background: `
