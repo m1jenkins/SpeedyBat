@@ -1,0 +1,13 @@
+# Speedy Bat Couriers - robots.txt
+# https://speedybat.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://speedybat.com/sitemap.xml
+
+# Block development/build directories
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /src/
