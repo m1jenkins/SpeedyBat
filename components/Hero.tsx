@@ -44,8 +44,6 @@ export const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-
-      <span className="absolute bottom-3 right-4 z-10 bg-ink/85 px-2 py-1 text-[10px] font-medium tracking-wide text-white">Illustrative image</span>
     </section>
   );
 };

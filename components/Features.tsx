@@ -36,7 +36,6 @@ export const Features: React.FC = () => (
               <a href={`/${service.id}`} className="group block h-full text-ink">
                 <div className={`image-frame ${item.aspect}`}>
                   <img src={service.image} alt="" width="1536" height="1024" loading="lazy" className="h-full w-full object-cover" />
-                  <span className="absolute bottom-3 right-3 bg-ink/75 px-2 py-1 text-[9px] uppercase tracking-[0.14em] text-white">Illustrative image</span>
                 </div>
                 <div className="mt-5 border-t border-ink/25 pt-4">
                   <h3 className="display-face max-w-2xl text-[clamp(1.4rem,2.4vw,2.25rem)] uppercase leading-[0.95] transition-colors group-hover:text-signal">{service.name}</h3>

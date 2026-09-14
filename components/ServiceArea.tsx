@@ -53,7 +53,6 @@ export const ServiceArea: React.FC = () => (
       {imageStrip.map((image, index) => (
         <figure key={image.src} className={`image-frame m-0 h-[280px] md:h-[420px] ${index === 1 ? 'md:col-span-5' : index === 0 ? 'md:col-span-3' : 'md:col-span-4'}`}>
           <img src={image.src} alt={image.alt} width="1536" height="1024" loading="lazy" className="h-full w-full object-cover" />
-          <figcaption className="absolute bottom-3 right-3 bg-ink/75 px-2 py-1 text-[9px] uppercase tracking-[0.14em] text-white">Illustrative image</figcaption>
         </figure>
       ))}
     </section>

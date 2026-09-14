@@ -54,7 +54,6 @@ export const ServiceLandingPage: React.FC<ServiceLandingPageProps> = ({ service 
 
       <figure className="image-frame m-0 h-[52svh] min-h-[380px] max-h-[720px]">
         <img src={service.image} alt={service.imageAlt} width="1536" height="1024" loading="lazy" decoding="async" className="h-full w-full object-cover" />
-        <figcaption className="absolute bottom-4 right-5 bg-ink/75 px-2 py-1 text-[9px] uppercase tracking-[0.14em] text-white">Illustrative image</figcaption>
       </figure>
 
       <section className="bg-cream py-20 md:py-28" aria-labelledby="service-process-heading">
