@@ -9,9 +9,9 @@ const steps = [
 ];
 
 const imageStrip = [
-  { src: '/courier-handoff-illustrative.webp', alt: 'A parcel handoff at a business entrance.' },
-  { src: '/courier-airport-illustrative.webp', alt: 'A compact courier van outside a public airport cargo terminal.' },
-  { src: '/courier-scheduled-illustrative.webp', alt: 'Organized parcels prepared for a scheduled business pickup.' }
+  { src: '/courier-handoff-stock.webp', alt: 'Two people holding labeled cardboard parcels.' },
+  { src: '/courier-airport-stock.webp', alt: 'A passenger aircraft parked at an airport terminal at dusk.', position: 'center 75%' },
+  { src: '/courier-scheduled-stock.webp', alt: 'Labeled cardboard parcels stacked inside a delivery van.' }
 ];
 
 export const ServiceArea: React.FC = () => (
@@ -52,7 +52,7 @@ export const ServiceArea: React.FC = () => (
     <section className="grid grid-cols-1 bg-ink md:grid-cols-12" aria-label="Courier work in context">
       {imageStrip.map((image, index) => (
         <figure key={image.src} className={`image-frame m-0 h-[280px] md:h-[420px] ${index === 1 ? 'md:col-span-5' : index === 0 ? 'md:col-span-3' : 'md:col-span-4'}`}>
-          <img src={image.src} alt={image.alt} width="1536" height="1024" loading="lazy" className="h-full w-full object-cover" />
+          <img src={image.src} alt={image.alt} width="1536" height="1024" loading="lazy" className="h-full w-full object-cover" style={{ objectPosition: image.position }} />
         </figure>
       ))}
     </section>

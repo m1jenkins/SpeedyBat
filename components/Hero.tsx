@@ -11,15 +11,19 @@ export const Hero: React.FC = () => {
 
   return (
     <section id="hero" className="relative mt-[76px] h-[68svh] min-h-[620px] overflow-hidden bg-ink lg:mt-[84px] lg:h-[75svh] lg:min-h-[650px] lg:max-h-[780px]" aria-labelledby="hero-heading">
-      <img
-        src="/courier-road-illustrative.webp"
-        alt="A compact white courier van traveling on a Central Texas road."
-        width="1536"
-        height="1024"
-        className="hero-photo absolute inset-0 h-full w-full object-cover object-[85%_center] sm:object-[72%_center] lg:object-center"
-        loading="eager"
-        fetchPriority="high"
-      />
+      <picture className="hero-photo absolute inset-0">
+        <source media="(max-width: 639px)" srcSet="/courier-road-mobile-stock.webp" width="960" height="1280" />
+        <img
+          src="/courier-road-stock.webp"
+          alt="A white cargo van traveling along a country road at sunset."
+          width="1920"
+          height="1280"
+          className="absolute inset-0 h-full w-full object-cover object-center"
+          loading="eager"
+          fetchPriority="high"
+        />
+      </picture>
+      <div className="absolute inset-0 bg-ink/60 lg:bg-ink/50" aria-hidden="true" />
 
       <div className="relative z-10 mx-auto flex h-full max-w-[1536px] items-end px-5 pb-10 sm:px-8 sm:pb-12 lg:items-center lg:px-10 lg:pb-0">
         <div className="hero-copy max-w-[760px] text-white">

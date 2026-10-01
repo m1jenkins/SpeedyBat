@@ -42,6 +42,7 @@ export interface ServiceData {
   cta: string;
   image: string;
   imageAlt: string;
+  imagePosition?: string;
   faq: ServiceFAQ[];
   relatedServiceIds: string[];
 }

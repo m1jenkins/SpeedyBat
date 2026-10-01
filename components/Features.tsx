@@ -35,7 +35,7 @@ export const Features: React.FC = () => (
             <Reveal key={service.id} delay={(index % 3) * 70} as="article" className={item.span}>
               <a href={`/${service.id}`} className="group block h-full text-ink">
                 <div className={`image-frame ${item.aspect}`}>
-                  <img src={service.image} alt="" width="1536" height="1024" loading="lazy" className="h-full w-full object-cover" />
+                  <img src={service.image} alt="" width="1536" height="1024" loading="lazy" className="h-full w-full object-cover" style={{ objectPosition: service.imagePosition }} />
                 </div>
                 <div className="mt-5 border-t border-ink/25 pt-4">
                   <h3 className="display-face max-w-2xl text-[clamp(1.4rem,2.4vw,2.25rem)] uppercase leading-[0.95] transition-colors group-hover:text-signal">{service.name}</h3>

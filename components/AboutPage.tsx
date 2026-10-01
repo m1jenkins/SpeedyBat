@@ -9,8 +9,8 @@ export const AboutPage: React.FC = () => (
         <p className="mt-7 max-w-2xl text-[18px] leading-relaxed text-white/75">Speedy Bat Couriers arranges same-day delivery, expedited freight, airport recovery, scheduled routes, and specialized courier work from the Austin metro. Send us the route, deadline, and item details. We’ll tell you whether we can take the job and what it will cost.</p>
         <a href="/#quick-quote-form" className="mt-8 inline-flex min-h-12 w-fit items-center gap-2 rounded-[5px] bg-signal px-6 py-3 text-sm font-bold text-white hover:bg-white hover:text-ink">Get a quote<ArrowUpRight className="h-4 w-4" /></a>
       </div>
-      <div className="relative flex min-h-[360px] items-center overflow-hidden bg-black lg:col-span-5">
-        <img src="/speedybat-crossover.webp" alt="Speedy Bat Couriers compact company vehicle." width="1666" height="944" className="w-[120%] max-w-none -translate-x-[8%] object-contain lg:w-[135%] lg:-translate-x-[18%]" />
+      <div className="relative min-h-[360px] overflow-hidden bg-black lg:col-span-5">
+        <img src="/courier-loading-stock.webp" alt="Two delivery workers loading cardboard parcels into a white cargo van." width="1536" height="1024" className="absolute inset-0 h-full w-full object-cover object-[48%_center]" />
       </div>
     </section>
   </main>

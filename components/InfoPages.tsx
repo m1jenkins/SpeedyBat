@@ -74,7 +74,7 @@ export const ServicesPage: React.FC = () => (
               {groupServices.map(service => (
                 <article key={service.id} className="border-b border-ink/25 py-6">
                   <a href={`/${service.id}`} className="group grid gap-5 sm:grid-cols-[9rem_1fr_auto] sm:items-center">
-                    <img src={service.image} alt="" width="240" height="180" loading="lazy" className="aspect-[4/3] w-full object-cover sm:w-36" />
+                    <img src={service.image} alt="" width="240" height="180" loading="lazy" className="aspect-[4/3] w-full object-cover sm:w-36" style={{ objectPosition: service.imagePosition }} />
                     <div>
                       <h3 className="display-face text-2xl uppercase leading-none text-ink group-hover:text-signal">{service.name}</h3>
                       <p className="mt-3 max-w-xl text-[16px] leading-relaxed text-ink-soft">{service.summary}</p>
