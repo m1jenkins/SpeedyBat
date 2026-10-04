@@ -88,6 +88,15 @@ export const ServicesPage: React.FC = () => (
         </section>
       );
     })}
+    <section className="border-t border-ink/20 py-12 md:py-16" aria-labelledby="quote-details-heading">
+      <div className="mx-auto grid max-w-[1536px] gap-6 px-5 sm:px-8 md:grid-cols-12 md:items-end lg:px-10">
+        <div className="md:col-span-7">
+          <h2 id="quote-details-heading" className="display-face text-3xl uppercase leading-none text-ink md:text-4xl">What will your courier delivery cost?</h2>
+          <p className="mt-5 max-w-2xl text-[17px] leading-relaxed text-ink-soft">The route, deadline, cargo, vehicle, and access requirements shape the quote. Send the basics so dispatch can review your request and confirm a price.</p>
+        </div>
+        <a href="/how-it-works#courier-pricing" className="inline-flex min-h-12 items-center gap-2 self-start text-sm font-bold text-signal underline underline-offset-4 md:col-span-4 md:col-start-9 md:justify-self-end">See what affects a courier quote<ArrowUpRight className="h-4 w-4" /></a>
+      </div>
+    </section>
     <PageClose title="Not sure which service fits?" body="Send the route, deadline, and item size. Dispatch will review the options with you." label="Get a quote" />
   </main>
 );
@@ -103,7 +112,7 @@ export const ServiceAreasPage: React.FC = () => (
       <div className="mx-auto grid max-w-[1536px] gap-10 px-5 sm:px-8 md:grid-cols-12 lg:px-10">
         <div className="md:col-span-4">
           <h2 id="metro-heading" className="display-face text-[clamp(2.8rem,5.5vw,5rem)] uppercase leading-[0.88] text-ink">Austin metro pickup</h2>
-          <p className="mt-5 max-w-md text-[17px] leading-relaxed text-ink-soft">Austin neighborhoods and nearby communities currently listed in the site data.</p>
+          <p className="mt-5 max-w-md text-[17px] leading-relaxed text-ink-soft">Share your pickup neighborhood or community, destination, and deadline so dispatch can check the route and current availability.</p>
         </div>
         <div className="space-y-12 md:col-span-7 md:col-start-6">
           <div id="austin" className="scroll-mt-28"><h3 className="mb-4 text-sm font-bold uppercase tracking-[0.16em] text-signal">Austin neighborhoods</h3><AreaList areas={austinNeighborhoods} /></div>
@@ -116,7 +125,7 @@ export const ServiceAreasPage: React.FC = () => (
         <div className="md:col-span-5">
           <h2 id="destinations-heading" className="display-face text-[clamp(2.8rem,5.5vw,5rem)] uppercase leading-[0.88] text-ink">Austin-origin destinations</h2>
         </div>
-        <p className="border-t border-ink/25 pt-5 text-[18px] leading-relaxed text-ink-soft md:col-span-6 md:col-start-7">Ask about direct delivery from Austin to Salado, Killeen, Temple, New Braunfels, other Texas cities, and longer routes.</p>
+        <p className="border-t border-ink/25 pt-5 text-[18px] leading-relaxed text-ink-soft md:col-span-6 md:col-start-7">Ask about delivery from Austin to Dallas, Houston, San Antonio, Salado, Killeen, Temple, New Braunfels, or another destination. Dispatch reviews each route before confirming availability and timing. See the <a href="/long-distance-intercity-courier" className="font-bold text-signal underline underline-offset-4">long-distance courier service</a> for what to include in your request.</p>
       </div>
     </section>
     <section className="border-y border-ink/20 bg-white py-8"><p className="mx-auto max-w-[1536px] px-5 text-[16px] font-bold text-ink sm:px-8 lg:px-10">A listed area is not a guarantee of availability. Send the route and deadline for confirmation.</p></section>
@@ -143,6 +152,31 @@ export const HowItWorksPage: React.FC = () => {
             </li>
           ))}
         </ol>
+      </section>
+      <section id="courier-pricing" className="scroll-mt-28 border-t border-ink/20 py-20 md:py-28" aria-labelledby="courier-pricing-heading">
+        <div className="mx-auto grid max-w-[1536px] gap-10 px-5 sm:px-8 md:grid-cols-12 lg:px-10">
+          <div className="md:col-span-4">
+            <h2 id="courier-pricing-heading" className="display-face text-[clamp(2.5rem,5vw,4.5rem)] uppercase leading-[0.88] text-ink">What affects courier pricing in Austin?</h2>
+            <p className="mt-5 max-w-md text-[17px] leading-relaxed text-ink-soft">Speedy Bat quotes each delivery for its route and requirements. Dispatch confirms the price and accepted scope before booking.</p>
+          </div>
+          <div className="md:col-span-7 md:col-start-6">
+            <dl className="border-t border-ink/25">
+              {[
+                { title: 'Route and distance', body: 'Share the Austin-metro pickup, destination, and any additional stops. A local delivery and an intercity route have different travel requirements.' },
+                { title: 'Ready time and delivery deadline', body: 'Tell dispatch when the item can be collected and when the recipient needs it. Urgency and courier availability help determine the service and quote.' },
+                { title: 'Cargo and vehicle fit', body: 'Start with a broad item category, approximate dimensions and weight, packaging, and loading needs. Dispatch reviews the vehicle and handling needed for the job.' },
+                { title: 'Access and other route costs', body: 'Receiving hours, dock access, waiting, tolls, parking, airport handling, and after-hours requirements can affect the quote when applicable.' }
+              ].map(factor => (
+                <div key={factor.title} className="border-b border-ink/25 py-6">
+                  <dt className="text-lg font-bold text-ink">{factor.title}</dt>
+                  <dd className="mt-3 text-[17px] leading-relaxed text-ink-soft">{factor.body}</dd>
+                </div>
+              ))}
+            </dl>
+            <p className="mt-7 text-[17px] leading-relaxed text-ink-soft">Choose a <a href="/same-day-on-demand-courier" className="font-bold text-signal underline underline-offset-4">same-day courier request</a>, <a href="/hot-shot-expedited-freight" className="font-bold text-signal underline underline-offset-4">hot shot shipment</a>, <a href="/long-distance-intercity-courier" className="font-bold text-signal underline underline-offset-4">long-distance route</a>, or <a href="/scheduled-dedicated-routes" className="font-bold text-signal underline underline-offset-4">recurring pickups</a> to see the details dispatch needs.</p>
+            <p className="mt-5 text-[17px] leading-relaxed text-ink-soft">A changed route, deadline, cargo, or access requirement may need a revised quote. Confirm changes with dispatch before the job proceeds.</p>
+          </div>
+        </div>
       </section>
       <section className="bg-cream py-16 md:py-20" aria-labelledby="sensitive-details-heading">
         <div className="mx-auto grid max-w-[1536px] gap-6 px-5 sm:px-8 md:grid-cols-12 lg:px-10">

@@ -9,6 +9,14 @@ export const faqItems: FaqItem[] = [
     answer: 'Send the pickup and destination ZIPs, deadline, item type, approximate size and weight, and your phone number or email. Dispatch will follow up with availability, price, and any questions.'
   },
   {
+    question: 'Can individuals use Speedy Bat, or is it only for businesses?',
+    answer: 'Individuals and businesses can request service through the same quote form, phone, or text process. Dispatch reviews the route, deadline, item category, size, and vehicle fit before accepting a job.'
+  },
+  {
+    question: 'Can I request a same-day or rush delivery in Austin?',
+    answer: 'Yes. Share the Austin-metro pickup, destination, when the item will be ready, and the delivery deadline. Dispatch confirms current availability and timing before accepting a same-day or rush job.'
+  },
+  {
     question: 'How soon can you pick up?',
     answer: 'Pickup time depends on the location, deadline, cargo, traffic, access, and available courier and vehicle. Send the route for a current estimate.'
   },
@@ -17,8 +25,8 @@ export const faqItems: FaqItem[] = [
     answer: 'Routine pickup is in the Austin metro. We also quote longer routes that start in Austin. Ask dispatch about the exact pickup and destination.'
   },
   {
-    question: 'How is pricing calculated?',
-    answer: 'Price depends on distance, urgency, vehicle, cargo size and weight, waiting time, tolls, airport handling, site access, and after-hours work when applicable. Dispatch confirms the price before booking.'
+    question: 'How much does a courier service in Austin cost?',
+    answer: 'Each job is quoted for its route and requirements. Price depends on distance, urgency, vehicle, cargo size and weight, waiting time, tolls, parking, airport handling, site access, and after-hours work when applicable. Send the route and item basics; dispatch confirms the price before booking.'
   },
   {
     question: 'Can I request direct delivery?',

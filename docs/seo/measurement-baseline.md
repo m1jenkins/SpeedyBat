@@ -4,7 +4,7 @@ Status: account exports not available in this repository. Populate this file bef
 
 ## Business outcome
 
-- Primary outcome: qualified urgent B2B inquiries originating in the Austin metro.
+- Primary outcome: qualified courier inquiries from businesses and individuals originating in the Austin metro, with accepted jobs recorded separately from contact clicks and quote requests.
 - Priority services: hot shot and expedited freight, airport recovery/NFO/AOG, manufacturing line-down, air hand carry/OBC, legal-document delivery, high-value secure-item transport, and same-day courier requests.
 - Qualified-lead definition: to be agreed by Operations and the CRM owner before reporting.
 - Conversion value: unknown until CRM outcomes and revenue attribution are connected.
@@ -13,7 +13,7 @@ Status: account exports not available in this repository. Populate this file bef
 
 | Source | Required export | Date range | Owner | Status | Limitation |
 | --- | --- | --- | --- | --- | --- |
-| Google Search Console | Page, query, country, device, search appearance, indexing, submitted/selected canonical | At least the longest comparable pre-launch period available | Marketing | Not available | Google AI-feature traffic is included in Web search reporting rather than isolated as a separate performance report. |
+| Google Search Console | Page, query, country, device, search appearance, indexing, submitted/selected canonical; Generative AI performance report where available | At least the longest comparable pre-launch period available | Marketing | Not available | Google's July 2026 AI optimization guide describes a Generative AI performance report; verify the actual property's report and inclusion setting. Account state is unknown. |
 | GA4 | Landing pages, sessions, source/medium, referrer, `generate_lead`, `click_call`, and `click_text` | Same pre-launch period | Analytics | Event implementation added; historical event baseline unavailable | Referrer and UTM attribution cannot measure every no-click or assisted interaction. |
 | Google Business Profile | Views, searches, calls, website actions, messages, and profile completeness | Same pre-launch period | Marketing | Not available | Confirm that one service-area profile represents the Austin business and that the address is hidden if there is no staffed storefront. |
 | Bing Webmaster Tools | Coverage, crawl, queries, pages, and selected canonical diagnostics | Same pre-launch period | Marketing | Not available | Dashboard access required. |
@@ -35,5 +35,6 @@ Status: account exports not available in this repository. Populate this file bef
 ## Launch annotations
 
 - Record deployment date, redirect activation, analytics changes, content cohort, outages, demand shifts, and confirmed search-system updates.
+- October 4, 2026: Austin search audit and page-content revision prepared on `codex/austin-courier-seo`. Release/deployment date is not yet confirmed. This release changes several proposed control pages in `service-page-experiment.md`; select fresh controls before using that pending experiment.
 - Establish pre-period variance before setting numeric continuation or rollback thresholds.
 - Roll back an affected treatment or redirect cohort if indexation, accessibility, factual accuracy, or qualified-lead conversion breaches a pre-declared guardrail. Never restore unsupported claims as a rollback.

@@ -7,8 +7,8 @@ const staticRoutes: RouteDefinition[] = [
     slug: '',
     kind: 'home',
     label: 'Home',
-    title: 'Urgent Courier Service in Austin, TX | Speedy Bat',
-    description: 'Request urgent Austin courier service for same-day, hot shot, AOG/NFO, air hand carry, legal-document, secure-item, and recurring delivery needs.'
+    title: 'Courier Service in Austin, TX | Speedy Bat Couriers',
+    description: 'Austin courier service for same-day delivery, documents, parcels, and expedited freight. Call or text (512) 910-4938 for availability and a quote.'
   },
   {
     slug: 'services',
@@ -22,14 +22,14 @@ const staticRoutes: RouteDefinition[] = [
     kind: 'hub',
     label: 'Service Areas',
     title: 'Austin Courier Pickup Area & Destinations | Speedy Bat',
-    description: 'See how Speedy Bat describes Austin-metro pickup coverage and farther Austin-origin destinations without implying staffed fleets in other cities.'
+    description: 'Check Austin courier pickup areas, including Round Rock, Cedar Park, Pflugerville, and Georgetown. Dispatch confirms pickup availability for your route.'
   },
   {
     slug: 'how-it-works',
     kind: 'hub',
     label: 'How It Works',
-    title: 'How Speedy Bat Courier Dispatch Works | Austin, TX',
-    description: 'Learn what to send, what dispatch confirms, how an accepted courier job proceeds, and which sensitive or restricted details not to submit online.'
+    title: 'Austin Courier Quotes & Delivery Process | Speedy Bat',
+    description: 'See what affects an Austin courier quote: route, deadline, cargo, vehicle, and access. Learn how to request pickup and confirm delivery details.'
   },
   {
     slug: 'faq',
