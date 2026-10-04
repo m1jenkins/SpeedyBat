@@ -2,6 +2,8 @@
 
 ## Decision
 
+October 4, 2026 audit annotation: this experiment has not launched or established a baseline. The Austin courier content revision changes the same-day and long-distance candidate controls as well as hot shot and manufacturing treatment copy. Those pages cannot be treated as unchanged controls for that release. Re-match cohorts, select a new pre-period, and define the decision rule before starting a controlled test. Measure the release descriptively until then; do not attribute ranking or lead changes causally to this experiment.
+
 - Experiment ID: `service-evidence-hierarchy-v1`
 - Owner: Marketing with Speedy Bat Operations review
 - Hypothesis: replacing unsupported promises with explicit eligibility, limits, process, exceptions, contextual links, and job-specific qualification will improve accurate nonbrand retrieval and qualified inquiry quality without harming conversion.

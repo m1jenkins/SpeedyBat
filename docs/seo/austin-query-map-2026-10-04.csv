@@ -1,0 +1,89 @@
+intent_family,candidate_query,primary_route,intent,status,search_volume,evidence
+Broad Austin courier,courier service Austin,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Broad Austin courier,Austin courier company,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Broad Austin courier,courier Austin TX,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Broad Austin courier,local delivery service Austin,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Broad Austin courier,Austin messenger service,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Immediate local pickup,same day courier Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Immediate local pickup,rush courier Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Immediate local pickup,urgent package delivery Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Immediate local pickup,express courier Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Immediate local pickup,on demand courier Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Immediate local pickup,need a package delivered today Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Documents and parcels,document delivery Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Documents and parcels,envelope courier Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Documents and parcels,contract delivery Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Documents and parcels,small package courier Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Documents and parcels,business supplies delivery Austin,/same-day-on-demand-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Cost and comparison,courier service Austin cost,/faq,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Cost and comparison,same day delivery Austin price,/faq,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Cost and comparison,courier quote Austin,/faq,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Cost and comparison,affordable courier Austin,/faq,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Cost and comparison,how much does a courier cost in Austin,/faq,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Near-me and trust,courier service near me,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Near-me and trust,best courier Austin,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Near-me and trust,reliable Austin courier,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Near-me and trust,local courier reviews Austin,/,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Hot shot and freight,hot shot delivery Austin,/hot-shot-expedited-freight,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Hot shot and freight,hotshot courier Austin,/hot-shot-expedited-freight,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Hot shot and freight,expedited freight Austin,/hot-shot-expedited-freight,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Hot shot and freight,urgent freight delivery Austin,/hot-shot-expedited-freight,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Hot shot and freight,emergency parts delivery Austin,/hot-shot-expedited-freight,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Hot shot and freight,sprinter van courier Austin,/hot-shot-expedited-freight,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Line-down and parts,line down delivery Austin,/manufacturing-line-down-delivery,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Line-down and parts,manufacturing parts courier Austin,/manufacturing-line-down-delivery,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Line-down and parts,urgent replacement part delivery Austin,/manufacturing-line-down-delivery,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Line-down and parts,production line emergency delivery Austin,/manufacturing-line-down-delivery,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Line-down and parts,prototype courier Austin,/manufacturing-line-down-delivery,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Line-down and parts,tools delivery Austin,/manufacturing-line-down-delivery,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Legal and authorized documents,legal courier Austin,/legal-courier-court-filing,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Legal and authorized documents,law firm document delivery Austin,/legal-courier-court-filing,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Legal and authorized documents,courthouse document delivery Austin,/legal-courier-court-filing,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Legal and authorized documents,contract courier Austin,/legal-courier-court-filing,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Legal and authorized documents,deed delivery Austin,/legal-courier-court-filing,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Legal and authorized documents,exhibits courier Austin,/legal-courier-court-filing,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Scheduled business work,scheduled courier Austin,/scheduled-dedicated-routes,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Scheduled business work,recurring delivery Austin,/scheduled-dedicated-routes,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Scheduled business work,daily courier route Austin,/scheduled-dedicated-routes,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Scheduled business work,weekly courier pickup Austin,/scheduled-dedicated-routes,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Scheduled business work,multi stop business delivery Austin,/scheduled-dedicated-routes,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Scheduled business work,interoffice courier Austin,/scheduled-dedicated-routes,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Airport cargo,Austin airport courier,/airport-recovery-next-flight-out,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Airport cargo,AUS cargo pickup courier,/airport-recovery-next-flight-out,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Airport cargo,Austin Bergstrom cargo delivery,/airport-recovery-next-flight-out,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Airport cargo,airport freight recovery Austin,/airport-recovery-next-flight-out,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Airport cargo,next flight out courier Austin,/airport-recovery-next-flight-out,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Airport cargo,NFO courier AUS,/airport-recovery-next-flight-out,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Airport cargo,AOG parts courier Austin,/airport-recovery-next-flight-out,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Accompanied air,on board courier Austin,/air-hand-carry-on-board-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Accompanied air,onboard courier Austin,/air-hand-carry-on-board-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Accompanied air,OBC courier Austin,/air-hand-carry-on-board-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Accompanied air,air hand carry Austin,/air-hand-carry-on-board-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Accompanied air,time critical air courier from Austin,/air-hand-carry-on-board-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Austin-origin intercity,Austin to Houston courier,/long-distance-intercity-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Austin-origin intercity,Austin to Dallas delivery,/long-distance-intercity-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Austin-origin intercity,Austin to San Antonio courier,/long-distance-intercity-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Austin-origin intercity,Austin to Temple courier,/long-distance-intercity-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Austin-origin intercity,long distance courier Austin,/long-distance-intercity-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Austin-origin intercity,direct drive delivery from Austin,/long-distance-intercity-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Metro geography,courier Round Rock,/service-areas#coverage,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Metro geography,Cedar Park same day delivery,/service-areas#coverage,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Metro geography,Pflugerville courier,/service-areas#coverage,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Metro geography,Buda courier,/service-areas#coverage,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Metro geography,Kyle courier,/service-areas#coverage,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Metro geography,courier Georgetown,/service-areas#coverage,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Metro geography,Lakeway courier,/service-areas#coverage,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Metro geography,courier downtown Austin,/service-areas#coverage,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Secure-item requests,secure document courier Austin,/high-value-secure-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Secure-item requests,high value item delivery Austin,/high-value-secure-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Secure-item requests,sensitive business document delivery Austin,/high-value-secure-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Secure-item requests,equipment courier Austin,/high-value-secure-courier,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Planning and service questions,how do I book a courier in Austin,/how-it-works,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Planning and service questions,what can a courier deliver,/how-it-works,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Planning and service questions,can a courier collect from an office,/how-it-works,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Planning and service questions,can I request proof of delivery,/how-it-works,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Planning and service questions,same day vs scheduled courier,/how-it-works,informational,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Availability constraints,after hours courier Austin,/faq,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Availability constraints,weekend courier Austin,/faq,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Availability constraints,24 hour courier Austin,/faq,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
+Availability constraints,emergency courier Austin,/faq,commercial/local,candidate for validation,unknown,query hypothesis grounded in supported services; see search research
