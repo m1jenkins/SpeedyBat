@@ -9,9 +9,9 @@ const steps = [
 ];
 
 const imageStrip = [
-  { src: '/courier-handoff-stock.webp', alt: 'Two people holding labeled cardboard parcels.' },
-  { src: '/courier-airport-stock.webp', alt: 'A passenger aircraft parked at an airport terminal at dusk.', position: 'center 75%' },
-  { src: '/courier-scheduled-stock.webp', alt: 'Labeled cardboard parcels stacked inside a delivery van.' }
+  { src: '/courier-scan-stock.webp', alt: 'Hands scanning a parcel barcode with a smartphone.', position: 'center' },
+  { src: '/courier-austin-stock.webp', alt: 'The Austin skyline and bridges over Lady Bird Lake.', position: 'center' },
+  { src: '/courier-delivery-stock.webp', alt: 'A delivery worker handing parcels to a recipient at a doorway.', position: 'center' }
 ];
 
 export const ServiceArea: React.FC = () => (

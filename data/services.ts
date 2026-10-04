@@ -35,8 +35,9 @@ export const services: Record<string, ServiceData> = {
     whatToSend: 'Pickup and destination, deadline, dimensions, weight, packaging, loading needs, and dock contacts.',
     beforeYouBook: 'Vehicle availability and cargo fit must be confirmed. Oversized, hazardous, temperature-controlled, or regulated cargo may be declined. Dedicated or nonstop service applies only when included in the quote.',
     cta: 'Get an expedited quote',
-    image: '/courier-parts-stock.webp',
-    imageAlt: 'Metal components and tools arranged on a workshop bench.',
+    image: '/courier-freight-stock.webp',
+    imageAlt: 'A white delivery truck outside a warehouse loading doorway.',
+    imagePosition: '55% center',
     faq: [
       { question: 'What makes a shipment a hot shot job?', answer: 'It is generally a time-critical ground shipment that needs a job-specific vehicle and route. Dispatch confirms whether hot shot service fits the cargo and deadline.' },
       { question: 'Can you quote an interstate route?', answer: 'Austin-origin interstate requests can be reviewed. Dispatch confirms the lane, vehicle and courier availability, safe-driving needs, timing, and price.' }
@@ -56,8 +57,8 @@ export const services: Record<string, ServiceData> = {
     whatToSend: 'Origin, destination, deadline, item type, dimensions, weight, site hours, and recipient contact.',
     beforeYouBook: 'Travel time can change with traffic, weather, distance, and safe-driving requirements. Destination cities are delivery markets for Austin-origin jobs, not routine local pickup locations.',
     cta: 'Get a long-distance quote',
-    image: '/courier-road-stock.webp',
-    imageAlt: 'A white cargo van traveling along a country road at sunset.',
+    image: '/courier-intercity-stock.webp',
+    imageAlt: 'An aerial view of a highway leading toward the Houston skyline.',
     faq: [
       { question: 'How far can a route go?', answer: 'Distance is reviewed per request. Dispatch considers the lane, deadline, safe-driving plan, available courier and vehicle, cargo, and destination access.' },
       { question: 'Do you pick up in destination cities?', answer: 'Routine pickup is in the Austin metro. Farther cities are destinations for Austin-origin jobs unless dispatch confirms a separate arrangement.' }
@@ -77,8 +78,8 @@ export const services: Record<string, ServiceData> = {
     whatToSend: 'Addresses or ZIPs, deadline, authorized contacts, destination hours, and the receipt needed. Do not put sensitive document contents in the public form or text.',
     beforeYouBook: 'Speedy Bat provides courier transport, not legal advice or service of process. Filing or clerk-facing tasks must be explicitly accepted, and no filing outcome is guaranteed.',
     cta: 'Get a document-delivery quote',
-    image: '/courier-handoff-stock.webp',
-    imageAlt: 'Two people holding labeled cardboard parcels.',
+    image: '/courier-documents-stock.webp',
+    imageAlt: 'Hands organizing paper documents in a blue expanding file.',
     faq: [
       { question: 'Do you provide service of process?', answer: 'No. This service is courier transport, not service of process.' },
       { question: 'Can you deliver documents to a courthouse?', answer: 'A courthouse or clerk-facing task must be reviewed and accepted in advance, including the destination rules, deadline, access, and return requirements.' }
@@ -98,8 +99,8 @@ export const services: Record<string, ServiceData> = {
     whatToSend: 'Part type, dimensions, weight, packaging, pickup dock, receiving dock, deadline, and contacts.',
     beforeYouBook: 'Special securement, equipment, cleanroom, hazardous-material, or other controlled requirements need advance review and may be declined.',
     cta: 'Get a line-down quote',
-    image: '/courier-parts-stock.webp',
-    imageAlt: 'Metal components and tools arranged on a workshop bench.',
+    image: '/courier-manufacturing-stock.webp',
+    imageAlt: 'A milling machine cutting a metal component.',
     faq: [
       { question: 'What details help with a line-down quote?', answer: 'Provide dimensions, weight, packaging, pickup and receiving dock details, authorized contacts, the needed-on-site deadline, and any handling constraints.' },
       { question: 'Can you enter a restricted facility?', answer: 'Access is never assumed. Dispatch confirms visitor, vehicle, identification, escort, and dock requirements before accepting the job.' }
@@ -162,9 +163,9 @@ export const services: Record<string, ServiceData> = {
     whatToSend: 'Route, deadline, item category, dimensions, weight, packaging, documents, and contacts.',
     beforeYouBook: "Traveler and flight availability, screening, baggage acceptance, border rules, and carrier decisions are outside Speedy Bat's control. International requests require separate review and may be declined.",
     cta: 'Request a hand-carry quote',
-    image: '/courier-airport-stock.webp',
-    imageAlt: 'A passenger aircraft parked at an airport terminal at dusk.',
-    imagePosition: 'center 75%',
+    image: '/courier-hand-carry-stock.webp',
+    imageAlt: 'A business traveler handling a small suitcase in an airport corridor.',
+    imagePosition: '56% center',
     faq: [
       { question: 'Is hand carry always the fastest option?', answer: 'Not necessarily. Dispatch compares flight availability, screening, documents, final-mile needs, and ground alternatives before proposing a route.' },
       { question: 'Can any item travel as carry-on baggage?', answer: 'No. The carrier and applicable authorities control eligibility. Accurate contents, dimensions, weight, packaging, value, and documents are required for review.' }
@@ -184,8 +185,8 @@ export const services: Record<string, ServiceData> = {
     whatToSend: 'Route, deadline, broad item category, approximate size, and contact information. Keep detailed value, IDs, account information, and access codes out of the public form and text.',
     beforeYouBook: 'Packaging, custody, vehicle, access, coverage, and receipt requirements are confirmed for the specific job. Speedy Bat may decline a request based on value, legality, risk, packaging, destination, or available coverage.',
     cta: 'Request a private review',
-    image: '/courier-handoff-stock.webp',
-    imageAlt: 'Two people holding labeled cardboard parcels.',
+    image: '/courier-secure-stock.webp',
+    imageAlt: 'Audio and production equipment organized inside an open protective case.',
     faq: [
       { question: 'What details should I put in the public form?', answer: 'Only the route, deadline, broad item category, approximate size or weight, and contact information. Keep detailed value, account numbers, IDs, and access codes out.' },
       { question: 'Is a special vehicle or custody method included?', answer: 'Only when the accepted scope says so. Vehicle, routing, custody, handoffs, packaging, coverage, and receipt controls are confirmed for the job.' }
